@@ -1,0 +1,16 @@
+mocha - a test running framework
+it (the core of any test)- run a test and make an assertion
+describe - groups together certain functions that test the same thing
+beforeEach - execute general setup code
+
+web3 can be used to:
+-create a contract (need abi and bytecode, don't need address)
+-or interact with a deployed contract (don't need bytecode, but need address and abi)
+
+infura api - gives us access to a node on the rinkeby network (so that we don't have to run a node locally, quick + easy way to access the network)
+infura is simply the connection point to the outside network 
+infura endpoint:
+https://rinkeby.infura.io/v3/cb9b0f7b332e4ce2931c7149f25a153d
+
+check that a contract was deployed using https://rinkeby.etherscan.io/
+enter in the address
